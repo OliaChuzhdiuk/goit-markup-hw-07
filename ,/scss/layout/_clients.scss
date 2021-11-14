@@ -1,4 +1,4 @@
-.clients-title {
+.clients_title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -8,14 +8,14 @@
     text-align: center;
 }
 
-.clients-list {
+.clients_list {
     padding: 0;
     margin: 0;
     display: flex;
     list-style: none;
 }
 
-.clients-list-item-link {
+.clients_link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +32,6 @@
     }
 }
 
-.clients-list-item:not(:last-child) {
+.clients_item:not(:last-child) {
     margin-right: 30px;
 }

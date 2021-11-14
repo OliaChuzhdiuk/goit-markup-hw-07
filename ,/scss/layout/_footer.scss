@@ -4,28 +4,17 @@
     background-color: var(--secondary-background-color);
 }
 
-.footer-container {
+.footer_container {
     display: flex;
     align-items: baseline;
 }
 
-.footer-address {
+.footer_address {
     font-style: normal;
     width: 231px;
 }
 
-.fotter-logo {
-    display: inline-block;
-    margin-bottom: 20px;
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--secondary-title-color);
-}
-
-.footer-link {
+.footer_link {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -40,6 +29,6 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-item:not(:last-child) {
+.footer_item:not(:last-child) {
     margin-bottom: 9px;
 }
