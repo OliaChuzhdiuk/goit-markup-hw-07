@@ -1,4 +1,4 @@
-.feature_title {
+.feature__title {
     margin-top: 0px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -8,17 +8,17 @@
     color: var(--primery-title-color);
 }
 
-.feature_list {
+.feature {
     display: flex;
     justify-content: space-between;
 }
 
-.feature_item {
+.feature__item {
     display: block;
     width: 270px;
 }
 
-.feature_icon {
+.feature__box {
     margin-bottom: 30px;
     align-items: center;
     justify-content: center;
@@ -28,10 +28,6 @@
     background-repeat: no-repeat;
     border-radius: 4px;
     background-color: #F5F4FA;
-}
-
-.feature_item p {
-    margin-top: 0;
 }
 
 .feature__text {

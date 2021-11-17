@@ -1,21 +1,11 @@
-.clients_title {
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    color: var(--header-color);
-    text-align: center;
-}
-
-.clients_list {
+.clients__list {
     padding: 0;
     margin: 0;
     display: flex;
     list-style: none;
 }
 
-.clients_link {
+.clients__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,6 +22,6 @@
     }
 }
 
-.clients_item:not(:last-child) {
+.clients__item:not(:last-child) {
     margin-right: 30px;
 }

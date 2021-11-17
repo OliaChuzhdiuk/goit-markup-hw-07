@@ -4,31 +4,31 @@
     background-color: var(--secondary-background-color);
 }
 
-.footer_container {
+.footer__container {
     display: flex;
     align-items: baseline;
 }
 
-.footer_address {
+.footer__address {
     font-style: normal;
     width: 231px;
 }
 
-.footer_link {
+.footer__link {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
 }
 
-.footer-mail,
-.footer-tel {
+.footer__mail,
+.footer__tel {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer_item:not(:last-child) {
+.footer__item:not(:last-child) {
     margin-bottom: 9px;
 }

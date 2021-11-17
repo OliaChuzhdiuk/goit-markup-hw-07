@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-color: var(--primery-background-color);
-    color: var(--secondary-text-color);
+    color: var(--primery-text-color);
     font-family: Roboto, sans-serif;
 }
 
@@ -27,10 +27,6 @@ img {
     height: auto;
 }
 
-.list {
-    list-style: none;
-}
-
-.link {
+a {
     text-decoration: none;
 }

@@ -1,4 +1,4 @@
-.form-container {
+.form__container {
     margin-left: 93px;
 }
 
@@ -6,12 +6,12 @@
     margin-left: 93px;
 }
 
-.footer-form {
+.form {
     display: flex;
     width: 570px;
 }
 
-.footer-form-title {
+.form__title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -21,7 +21,7 @@
     color: var(--secondary-title-color);
 }
 
-.footer-input {
+.footer__input {
     padding: 15px;
     width: 358px;
     height: 50px;
@@ -38,7 +38,7 @@
     }
 }
 
-.footer-button {
+.footer__button {
     display: flex;
     margin-left: 12px;
     justify-content: center;
@@ -61,7 +61,7 @@
     }
 }
 
-.footer-send {
+.footer__send {
     margin-left: 10px;
     width: 24px;
     height: 24px;
